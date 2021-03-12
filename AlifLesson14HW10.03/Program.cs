@@ -145,17 +145,10 @@ namespace AlifLesson14HW10._03
             CityOfUSList.Add("Seattle");
             CityOfUSList.Add("Miami");
             CityOfUSList.Add("Atlanta");
-            /*
-            Console.WriteLine("--------------- GetItemOfIndex --------------------\n");
-            Console.WriteLine("CityOfTajikistanList[2] : {0}",CityOfTajikistanList[2]);
-            Console.WriteLine("--------------- GetItems ----------------------\n");
-            foreach (var City in CityOfTajikistanList)
-            Console.Write("{0}  ",City);
-            Console.WriteLine("\n\nЕмкость списка: {0} элемент", CityOfTajikistanList.Capacity);
-            Console.WriteLine("Список фактически содержит: {0} элемент", CityOfTajikistanList.Count);*/
+           
 
 
-            //добавим все элемент из CityOfUSList в CityDictionarList
+            
             for (int i = 0; i < CityOfUSList.Count; i++)
             {
                 CityDictionarList.Add(i, CityOfUSList[i]);
